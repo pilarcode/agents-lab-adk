@@ -6,6 +6,13 @@ https://google.github.io/adk-docs/
 
 ## Get started 
 
+Create your enviroment
+
+```
+python -m venv venv
+```
+Install the dependencies
+
 ```
 pip install google-adk
 ```
