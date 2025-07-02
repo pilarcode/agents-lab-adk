@@ -10,6 +10,16 @@ https://google.github.io/adk-docs/
 pip install google-adk
 ```
 
+### Enviroment variables
+Create a new  .env file and add these variables.
+
+```
+GOOGLE_GENAI_USE_VERTEXAI=FALSE
+GOOGLE_API_KEY=<Your_API_KEY>
+```
+
+
+
 ## Run your agent
 There are multiple ways to interact with your agent:
 
