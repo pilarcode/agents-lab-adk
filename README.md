@@ -6,11 +6,18 @@ https://google.github.io/adk-docs/
 
 ## Get started 
 
-Create your enviroment
+Create your environment
 
 ```
 python -m venv venv
 ```
+
+Activate the environment
+```
+venv\Scripts\activate
+```
+
+
 Install the dependencies
 
 ```
