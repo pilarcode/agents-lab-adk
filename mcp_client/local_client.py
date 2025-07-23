@@ -1,9 +1,11 @@
 import asyncio
 from fastmcp import Client, FastMCP
+from dotenv import load_dotenv
 
+PATH_LOCAL_MCP_SERVER = load_dotenv()
 
-# Local client
-client = Client("D:\ia_projects\mcp_proyecto\mcp_platform\mcp_catalogue\mcp_servers\hello\server.py")
+# Mcp client
+client = Client(PATH_LOCAL_MCP_SERVER)
 
 async def main():
     async with client:
