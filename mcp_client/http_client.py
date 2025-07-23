@@ -1,8 +1,11 @@
 import asyncio
 from fastmcp import Client, FastMCP
+from dotenv import load_dotenv
 
+URL_MCP_SERVER = load_dotenv()
 
-client = Client("http://localhost:8005/mcp")
+# Mcp client
+client = Client(URL_MCP_SERVER)
 
 async def main():
     async with client:
