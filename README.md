@@ -18,15 +18,17 @@ venv\Scripts\activate
 ```
 
 
-Install the dependencies
+Install dependencies
 
 ```
-pip install google-adk
+pip install -r requirements.txt
 ```
+
 
 ### Enviroment variables
-Create a new  .env file and add these variables.
+Create a new  .env file and add the envrionment variables.
 
+Take a look to the .env.example file.
 ```
 GOOGLE_GENAI_USE_VERTEXAI=FALSE
 GOOGLE_API_KEY=<Your_API_KEY>
@@ -49,6 +51,10 @@ adk web
 adk run multi_tool_agent
 ```
 
+or
+```
+adk run mpc_tool_agent
+```
 
 ### 3. API Server (adk api server)
 **adk api_server** enables you to create a local FastAPI server in a single command, enabling you to test local cURL requests before you deploy your agent.
