@@ -7,7 +7,7 @@ from google.adk.tools.mcp_tool.mcp_toolset import MCPToolset, StdioServerParamet
 root_agent = LlmAgent(
     model='gemini-2.0-flash',
     name='maps_assistant_agent',
-    instruction='Help the user with mapping, directions, and finding places using Google Maps tools.',
+    instruction='Help the user with maths usings the tools.',
     tools=[
         MCPToolset(
             connection_params=StdioConnectionParams(
