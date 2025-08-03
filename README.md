@@ -44,7 +44,7 @@ GOOGLE_API_KEY=<Your_API_KEY>
 There are multiple ways to interact with your agent:
 
 ### 1. Dev UI (adk web)
-
+Run this command in the terminal and select the example you want to run.
 ```
 adk web
 ```
@@ -53,11 +53,6 @@ adk web
 ### 2. Terminal (adk run)
 ```
 adk run multi_tool_agent
-```
-
-or
-```
-adk run mpc_tool_agent
 ```
 
 ### 3. API Server (adk api server)
@@ -75,4 +70,5 @@ adk api_server
 ![App](images/demo.png)
 
 ## References
+
 - https://google.github.io/adk-docs/
