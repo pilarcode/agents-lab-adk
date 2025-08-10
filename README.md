@@ -76,3 +76,8 @@ adk api_server
 
 ## References
 - https://google.github.io/adk-docs/
+- https://partner.cloudskillsboost.google/course_templates/1325/labs/541251
+- https://cloud.google.com/vertex-ai/generative-ai/docs/models/evaluation-overview
+- https://cloud.google.com/vertex-ai/generative-ai/docs/models/determine-eval
+- https://cloud.google.com/vertex-ai/generative-ai/docs/models/run-evaluation
+- https://cloud.google.com/vertex-ai/generative-ai/docs/models/view-evaluation
