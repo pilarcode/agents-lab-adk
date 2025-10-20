@@ -81,3 +81,13 @@ adk api_server
 - https://cloud.google.com/vertex-ai/generative-ai/docs/models/determine-eval
 - https://cloud.google.com/vertex-ai/generative-ai/docs/models/run-evaluation
 - https://cloud.google.com/vertex-ai/generative-ai/docs/models/view-evaluation
+
+
+# Official Documentation
+- ADK Python GitHub Repository: https://github.com/google/adk-python
+- ADK Java GitHub Repository: https://github.com/google/adk-java
+- ADK Documentation: https://google.github.io/adk-docs
+- Gemini API Documentation: https://ai.google.dev/gemini-api
+- Model Information: https://ai.google.dev/gemini-api/docs/models
+- Sample Agents: https://github.com/google/adk-samples
+
